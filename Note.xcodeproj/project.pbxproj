@@ -9,6 +9,23 @@
 /* Begin PBXFileReference section */
 		D7086D631D264B2A009AF46E /* 代理  Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "代理  Block.m"; sourceTree = "<group>"; };
 		D7086D641D2651BA009AF46E /* GCC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCC.m; sourceTree = "<group>"; };
+		D7C4A1251D3686B00040A023 /* NSString+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XFExtension.h"; sourceTree = "<group>"; };
+		D7C4A1261D3686B00040A023 /* NSString+XFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XFExtension.m"; sourceTree = "<group>"; };
+		D7C4A1281D3686B00040A023 /* NSCalendar+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+XFExtension.h"; sourceTree = "<group>"; };
+		D7C4A1291D3686B00040A023 /* NSCalendar+XFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+XFExtension.m"; sourceTree = "<group>"; };
+		D7C4A12A1D3686B00040A023 /* NSDate+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+XFExtension.h"; sourceTree = "<group>"; };
+		D7C4A12B1D3686B00040A023 /* NSDate+XFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+XFExtension.m"; sourceTree = "<group>"; };
+		D7C4A12D1D3686B00040A023 /* UIImage+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XFExtension.h"; sourceTree = "<group>"; };
+		D7C4A12E1D3686B00040A023 /* UIImage+XFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XFExtension.m"; sourceTree = "<group>"; };
+		D7C4A12F1D3686B00040A023 /* UIImageView+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImageView+XFExtension.h"; sourceTree = "<group>"; };
+		D7C4A1301D3686B00040A023 /* UIImageView+XFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+XFExtension.m"; sourceTree = "<group>"; };
+		D7C4A1321D3686B00040A023 /* UITextField+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITextField+XFExtension.h"; sourceTree = "<group>"; };
+		D7C4A1331D3686B00040A023 /* UITextField+XFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITextField+XFExtension.m"; sourceTree = "<group>"; };
+		D7C4A1351D3686B00040A023 /* UIBarButtonItem+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XFExtension.h"; sourceTree = "<group>"; };
+		D7C4A1361D3686B00040A023 /* UIBarButtonItem+XFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XFExtension.m"; sourceTree = "<group>"; };
+		D7C4A1381D3686B00040A023 /* UIView+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XFExtension.h"; sourceTree = "<group>"; };
+		D7C4A1391D3686B00040A023 /* UIView+XFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XFExtension.m"; sourceTree = "<group>"; };
+		D7C4A13A1D3686CA0040A023 /* 网络请求.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "网络请求.m"; sourceTree = "<group>"; };
 		D7DAE7451D22708500893ED6 /* 九宫格.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "九宫格.m"; sourceTree = "<group>"; };
 		D7DAE7461D22709300893ED6 /* 水平TableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "水平TableView.m"; sourceTree = "<group>"; };
 		D7DAE7471D2270BA00893ED6 /* UIPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPickerView.m; sourceTree = "<group>"; };
@@ -93,17 +110,74 @@
 		D7FB6B9B1D28BADA005FD19F /* 网络加载.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "网络加载.m"; sourceTree = "<group>"; };
 		D7FB6B9C1D28BDD6005FD19F /* 刮刮乐.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "刮刮乐.m"; sourceTree = "<group>"; };
 		D7FB6B9D1D28CAEA005FD19F /* 判断为空.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "判断为空.m"; sourceTree = "<group>"; };
-		D7FB6B9F1D28CB4B005FD19F /* 轮播.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "轮播.m"; sourceTree = "<group>"; };
+		D7FB6B9F1D28CB4B005FD19F /* 轮播.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "轮播.m"; path = "../轮播.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		D7C4A1241D3686B00040A023 /* 计算文件大小 */ = {
+			isa = PBXGroup;
+			children = (
+				D7C4A1251D3686B00040A023 /* NSString+XFExtension.h */,
+				D7C4A1261D3686B00040A023 /* NSString+XFExtension.m */,
+			);
+			path = "计算文件大小";
+			sourceTree = "<group>";
+		};
+		D7C4A1271D3686B00040A023 /* 日期显示判断 */ = {
+			isa = PBXGroup;
+			children = (
+				D7C4A1281D3686B00040A023 /* NSCalendar+XFExtension.h */,
+				D7C4A1291D3686B00040A023 /* NSCalendar+XFExtension.m */,
+				D7C4A12A1D3686B00040A023 /* NSDate+XFExtension.h */,
+				D7C4A12B1D3686B00040A023 /* NSDate+XFExtension.m */,
+			);
+			path = "日期显示判断";
+			sourceTree = "<group>";
+		};
+		D7C4A12C1D3686B00040A023 /* 设置头像形状 */ = {
+			isa = PBXGroup;
+			children = (
+				D7C4A12D1D3686B00040A023 /* UIImage+XFExtension.h */,
+				D7C4A12E1D3686B00040A023 /* UIImage+XFExtension.m */,
+				D7C4A12F1D3686B00040A023 /* UIImageView+XFExtension.h */,
+				D7C4A1301D3686B00040A023 /* UIImageView+XFExtension.m */,
+			);
+			path = "设置头像形状";
+			sourceTree = "<group>";
+		};
+		D7C4A1311D3686B00040A023 /* 文本框占位文字 */ = {
+			isa = PBXGroup;
+			children = (
+				D7C4A1321D3686B00040A023 /* UITextField+XFExtension.h */,
+				D7C4A1331D3686B00040A023 /* UITextField+XFExtension.m */,
+			);
+			path = "文本框占位文字";
+			sourceTree = "<group>";
+		};
+		D7C4A1341D3686B00040A023 /* 自定义BarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				D7C4A1351D3686B00040A023 /* UIBarButtonItem+XFExtension.h */,
+				D7C4A1361D3686B00040A023 /* UIBarButtonItem+XFExtension.m */,
+			);
+			path = "自定义BarButtonItem";
+			sourceTree = "<group>";
+		};
+		D7C4A1371D3686B00040A023 /* view相关 */ = {
+			isa = PBXGroup;
+			children = (
+				D7C4A1381D3686B00040A023 /* UIView+XFExtension.h */,
+				D7C4A1391D3686B00040A023 /* UIView+XFExtension.m */,
+			);
+			path = "view相关";
+			sourceTree = "<group>";
+		};
 		D7DAE7371D226E7C00893ED6 = {
 			isa = PBXGroup;
 			children = (
-				D7FB6B9F1D28CB4B005FD19F /* 轮播.m */,
+				D7F8A4891D23632D001E3CE5 /* WaitToHandle.m */,
 				D7FB6B9E1D28CB43005FD19F /* Project */,
 				D7F8A4A71D2374B0001E3CE5 /* Images */,
-				D7F8A4891D23632D001E3CE5 /* WaitToHandle.m */,
 				D7DAE7661D22757B00893ED6 /* Category */,
 				D7DAE7531D2271FB00893ED6 /* Skills */,
 				D7DAE74D1D22715200893ED6 /* System */,
@@ -176,6 +250,12 @@
 		D7DAE7661D22757B00893ED6 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D7C4A1241D3686B00040A023 /* 计算文件大小 */,
+				D7C4A1271D3686B00040A023 /* 日期显示判断 */,
+				D7C4A12C1D3686B00040A023 /* 设置头像形状 */,
+				D7C4A1311D3686B00040A023 /* 文本框占位文字 */,
+				D7C4A1341D3686B00040A023 /* 自定义BarButtonItem */,
+				D7C4A1371D3686B00040A023 /* view相关 */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -314,6 +394,8 @@
 		D7FB6B9E1D28CB43005FD19F /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				D7FB6B9F1D28CB4B005FD19F /* 轮播.m */,
+				D7C4A13A1D3686CA0040A023 /* 网络请求.m */,
 			);
 			path = Project;
 			sourceTree = "<group>";
