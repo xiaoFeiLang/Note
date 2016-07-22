@@ -56,3 +56,11 @@ json accelerator
 pod install --verbose --no-repo-update
 
 pod 'ReactiveCocoa', '~> 4.0.2-alpha-1’
+
+pod 'AFNetworking' #网络
+pod 'Masonry' #自动布局
+pod 'MBProgressHUD' #提示
+pod 'IQKeyboardManager' #键盘管理
+pod 'SDWebImage' #图片加载,缓存
+pod 'MJRefresh' #刷新
+pod 'YYModel' #数据转模型
