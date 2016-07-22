@@ -9,6 +9,17 @@
 /* Begin PBXFileReference section */
 		D7086D631D264B2A009AF46E /* 代理  Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "代理  Block.m"; sourceTree = "<group>"; };
 		D7086D641D2651BA009AF46E /* GCC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCC.m; sourceTree = "<group>"; };
+		D72EC1A51D40648C00993D59 /* UITableViewCell_register.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewCell_register.m; sourceTree = "<group>"; };
+		D72EC1A61D40657500993D59 /* 自动计算长度.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "自动计算长度.m"; sourceTree = "<group>"; };
+		D72EC1A71D4069C900993D59 /* 点击.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "点击.m"; sourceTree = "<group>"; };
+		D72EC1E71D406FEC00993D59 /* 排序.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "排序.m"; sourceTree = "<group>"; };
+		D72EC1E81D40781500993D59 /* dispatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dispatch.m; sourceTree = "<group>"; };
+		D75F599B1D3CDBA800C266FD /* UITableViewCell_Nib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewCell_Nib.m; sourceTree = "<group>"; };
+		D75F599C1D3CDDF100C266FD /* UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView.m; sourceTree = "<group>"; };
+		D75F599D1D3CE2A800C266FD /* 关联.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "关联.m"; sourceTree = "<group>"; };
+		D75F599E1D3CE3DF00C266FD /* 比较.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "比较.m"; sourceTree = "<group>"; };
+		D7843B1E1D3F83F700FAF621 /* undoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = undoManager.m; sourceTree = "<group>"; };
+		D7843B261D3FDC8E00FAF621 /* NSArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArray.m; sourceTree = "<group>"; };
 		D7C4A1251D3686B00040A023 /* NSString+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XFExtension.h"; sourceTree = "<group>"; };
 		D7C4A1261D3686B00040A023 /* NSString+XFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XFExtension.m"; sourceTree = "<group>"; };
 		D7C4A1281D3686B00040A023 /* NSCalendar+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+XFExtension.h"; sourceTree = "<group>"; };
@@ -61,6 +72,8 @@
 		D7DAE7711D2275DE00893ED6 /* RunTime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTime.m; sourceTree = "<group>"; };
 		D7DAE7721D2275DE00893ED6 /* WebSites.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebSites.m; sourceTree = "<group>"; };
 		D7DAE7731D2277D300893ED6 /* Git.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git.m; sourceTree = "<group>"; };
+		D7EC663B1D3E007500B773E3 /* KVO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVO.m; sourceTree = "<group>"; };
+		D7EC663C1D3E06B700B773E3 /* 实例变量和属性.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "实例变量和属性.m"; sourceTree = "<group>"; };
 		D7F8A47B1D235B02001E3CE5 /* Temp.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Temp.m; sourceTree = "<group>"; };
 		D7F8A4811D236206001E3CE5 /* HttpManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpManager.h; sourceTree = "<group>"; };
 		D7F8A4821D236206001E3CE5 /* HttpManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpManager.m; sourceTree = "<group>"; };
@@ -114,6 +127,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		D7843B241D3FDC6500FAF621 /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				D7843B261D3FDC8E00FAF621 /* NSArray.m */,
+			);
+			path = NSObject;
+			sourceTree = "<group>";
+		};
 		D7C4A1241D3686B00040A023 /* 计算文件大小 */ = {
 			isa = PBXGroup;
 			children = (
@@ -175,9 +196,9 @@
 		D7DAE7371D226E7C00893ED6 = {
 			isa = PBXGroup;
 			children = (
+				D7843B241D3FDC6500FAF621 /* NSObject */,
 				D7F8A4891D23632D001E3CE5 /* WaitToHandle.m */,
 				D7FB6B9E1D28CB43005FD19F /* Project */,
-				D7F8A4A71D2374B0001E3CE5 /* Images */,
 				D7DAE7661D22757B00893ED6 /* Category */,
 				D7DAE7531D2271FB00893ED6 /* Skills */,
 				D7DAE74D1D22715200893ED6 /* System */,
@@ -185,6 +206,7 @@
 				D7DAE7401D226FCE00893ED6 /* UI */,
 				D7DAE7671D22759400893ED6 /* Others */,
 				D7F8A47D1D235BEB001E3CE5 /* Tools */,
+				D7F8A4A71D2374B0001E3CE5 /* Images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -200,8 +222,11 @@
 				D7DAE7611D2274DA00893ED6 /* UITextField.m */,
 				D7DAE7551D22722600893ED6 /* UITableView.m */,
 				D7DAE7621D2274F500893ED6 /* UITableViewCell.m */,
+				D75F599B1D3CDBA800C266FD /* UITableViewCell_Nib.m */,
 				D7F8A48D1D23707D001E3CE5 /* NSString.m */,
 				D7F8A4C51D239C00001E3CE5 /* UIWebView.m */,
+				D75F599C1D3CDDF100C266FD /* UIView.m */,
+				D72EC1A51D40648C00993D59 /* UITableViewCell_register.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -243,6 +268,7 @@
 			children = (
 				D7DAE7541D22720600893ED6 /* 面试.m */,
 				D7FB6B9B1D28BADA005FD19F /* 网络加载.m */,
+				D7EC663C1D3E06B700B773E3 /* 实例变量和属性.m */,
 			);
 			path = Skills;
 			sourceTree = "<group>";
@@ -279,6 +305,14 @@
 				D7F8A4F21D23C83B001E3CE5 /* 正则表达.m */,
 				D7F8A4F31D23C88C001E3CE5 /* 访问appStore.m */,
 				D7086D631D264B2A009AF46E /* 代理  Block.m */,
+				D75F599D1D3CE2A800C266FD /* 关联.m */,
+				D75F599E1D3CE3DF00C266FD /* 比较.m */,
+				D7EC663B1D3E007500B773E3 /* KVO.m */,
+				D7843B1E1D3F83F700FAF621 /* undoManager.m */,
+				D72EC1A61D40657500993D59 /* 自动计算长度.m */,
+				D72EC1A71D4069C900993D59 /* 点击.m */,
+				D72EC1E71D406FEC00993D59 /* 排序.m */,
+				D72EC1E81D40781500993D59 /* dispatch.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";

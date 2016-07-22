@@ -76,6 +76,7 @@ typedef void(^BlockButton)(UIButton *button);
 
 @end
 
+＊方法三：通过点击位置获取
 
 - (IBAction)cellButtonTapped:(id)sender {
     UIButton *button = sender;
@@ -85,6 +86,7 @@ typedef void(^BlockButton)(UIButton *button);
     [self.tableView indexPathForRowAtPoint:correctedPoint];
     NSLog(@"Button tapped in row %d", indexPath.row);
 }
+
 在自定义cell的.m文件
 #import "TestCell.h"
 
@@ -214,4 +216,37 @@ cell.selectedBackgroundView = aView;
 
 
 //***************************************************   end   ************************************************************
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
+    
+    if (self.textView.text.length == 0){
+        
+        if ([text isEqualToString:@""]) {
+            
+            self.placeholder.hidden = NO;
+            
+        } else {
+            
+            self.placeholder.hidden = YES;
+            
+        }
+        
+    } else {
+        
+        if (self.textView.text.length == 1) {
+            
+            if ([text isEqualToString:@""]) {
+                
+                self.placeholder.hidden = NO;
+                
+            } else {
+                
+                self.placeholder.hidden = YES;
+            }
+        } else {
+            
+            self.placeholder.hidden = YES;
+        }
+    }
+    return YES;
 

@@ -89,3 +89,58 @@ TextInputLimit是ios下的一个文本框输入文字长度限制的库，使用
 }
 
 //***************************************************   end   ************************************************************
+
+
+- (UILabel *)placeholder{
+    
+    if (!_placeholder) {
+        _placeholder = [UILabel new];
+        _placeholder.text = @"请输入举报内容";
+        _placeholder.font = FONT(11);
+        _placeholder.textColor = UIColorFromRGB(0x666666);
+        [self.content addSubview:_placeholder];
+    }
+    return _placeholder;
+}
+
+#pragma mark - UITextView Delegate
+- (void)textViewDidEndEditing:(UITextView *)textView{
+    
+    if (self.didInputText) {
+        self.didInputText(self.content.text);
+    }
+}
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
+    
+    if (self.content.text.length == 0){
+        
+        if ([text isEqualToString:@""]) {
+            
+            self.placeholder.hidden = NO;
+            
+        } else {
+            
+            self.placeholder.hidden = YES;
+            
+        }
+        
+    } else {
+        
+        if (self.content.text.length == 1) {
+            
+            if ([text isEqualToString:@""]) {
+                
+                self.placeholder.hidden = NO;
+                
+            } else {
+                
+                self.placeholder.hidden = YES;
+            }
+        } else {
+            
+            self.placeholder.hidden = YES;
+        }
+    }
+    return YES;
+}
