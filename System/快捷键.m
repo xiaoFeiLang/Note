@@ -20,5 +20,25 @@
 14. 快速帮助: 在类或者方法名上执行Option + Left-click操作
 “最近偏爱Command + Shift + J快捷操作，可展示当前你在工程导航器中打开的文件。我最近在大型代码库上花了不少日子，这个组合键可以快速地在代码库中跳转”
 
+下一行：F6
+进入方法：F7
+跳出方法：F8
+全速执行：command+control+Y
+
+com + shift + y :显示隐藏调试区
+com + T ：打开标签页
+com + shift + 】： 切换到下一个标签页
+com + shift + 【 ：切换到上一个标签页
+
+command+L              跳到某行
+
+调试快捷键：
+command+shift+Y     打开调试窗口
+command+Y                   调试运行程序
+command+option+P      继续
+command+shift+O        跳过
+command+shift+I         进入
+command+shift+T        跳出
+
 https://git.coding.net/Hwangkop/Susu.git
 https://git.coding.net/haytor/oil_ios.git

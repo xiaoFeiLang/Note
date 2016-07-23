@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
+delegate尽量用weak
 //定义一个协议
 @protocol ViewControllerDelegate<NSObject>
 - (void)selfDelegateMethod;
