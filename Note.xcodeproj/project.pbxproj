@@ -19,6 +19,8 @@
 		D75F599C1D3CDDF100C266FD /* UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView.m; sourceTree = "<group>"; };
 		D75F599D1D3CE2A800C266FD /* 关联.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "关联.m"; sourceTree = "<group>"; };
 		D75F599E1D3CE3DF00C266FD /* 比较.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "比较.m"; sourceTree = "<group>"; };
+		D76598F91D4502C800697774 /* UITabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabBar.m; sourceTree = "<group>"; };
+		D76598FA1D45053B00697774 /* Snip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snip.m; sourceTree = "<group>"; };
 		D7843B1E1D3F83F700FAF621 /* undoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = undoManager.m; sourceTree = "<group>"; };
 		D7843B261D3FDC8E00FAF621 /* NSArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArray.m; sourceTree = "<group>"; };
 		D7B8602F1D3B67AB00C005B5 /* Content.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Content.h; sourceTree = "<group>"; };
@@ -239,6 +241,7 @@
 				D7F8A48D1D23707D001E3CE5 /* NSString.m */,
 				D7F8A4C51D239C00001E3CE5 /* UIWebView.m */,
 				D75F599C1D3CDDF100C266FD /* UIView.m */,
+				D76598F91D4502C800697774 /* UITabBar.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 				D72EC1A71D4069C900993D59 /* 点击.m */,
 				D72EC1E71D406FEC00993D59 /* 排序.m */,
 				D72EC1E81D40781500993D59 /* dispatch.m */,
+				D76598FA1D45053B00697774 /* Snip.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";

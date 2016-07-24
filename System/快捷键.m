@@ -42,3 +42,9 @@ command+shift+T        跳出
 
 https://git.coding.net/Hwangkop/Susu.git
 https://git.coding.net/haytor/oil_ios.git
+
+
+全局激活或禁用断点com + Y
+  command + shift + b分析代码，找到潜在内存溢出问题
+option + command + return切换到辅助编辑器，左右可以对比，特别方便编
+option + command + J 搜索
