@@ -20,6 +20,7 @@ pdfds
 
 
 //*************************************************** 单选 start  ************************************************************
+
 - (UITableViewCell *)tableView:(UITableView *)tableView
 cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString *CheckMarkCellIdentifier = @"CheckMarkCellIdentifier";
@@ -63,6 +64,7 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 
 
 //***************************************************  start  ************************************************************
+//iOS-7-Cookbook-master/C09 Tables/02 - Checks
 // Return a cell for the index path
 - (UITableViewCell *)tableView:(UITableView *)aTableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {

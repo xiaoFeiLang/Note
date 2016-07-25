@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		D7086D631D264B2A009AF46E /* 代理  Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "代理  Block.m"; sourceTree = "<group>"; };
 		D7086D641D2651BA009AF46E /* GCC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCC.m; sourceTree = "<group>"; };
+		D72444E51D45F0DC00022255 /* Lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lib.m; sourceTree = "<group>"; };
 		D72EC1A51D40648C00993D59 /* UITableViewCell_register.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewCell_register.m; sourceTree = "<group>"; };
 		D72EC1A61D40657500993D59 /* 自动计算长度.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "自动计算长度.m"; sourceTree = "<group>"; };
 		D72EC1A71D4069C900993D59 /* 点击.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "点击.m"; sourceTree = "<group>"; };
@@ -19,8 +20,12 @@
 		D75F599C1D3CDDF100C266FD /* UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView.m; sourceTree = "<group>"; };
 		D75F599D1D3CE2A800C266FD /* 关联.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "关联.m"; sourceTree = "<group>"; };
 		D75F599E1D3CE3DF00C266FD /* 比较.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "比较.m"; sourceTree = "<group>"; };
+		D76598F91D4502C800697774 /* UITabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabBar.m; sourceTree = "<group>"; };
+		D76598FA1D45053B00697774 /* Snip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snip.m; sourceTree = "<group>"; };
 		D7843B1E1D3F83F700FAF621 /* undoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = undoManager.m; sourceTree = "<group>"; };
 		D7843B261D3FDC8E00FAF621 /* NSArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArray.m; sourceTree = "<group>"; };
+		D7B8602F1D3B67AB00C005B5 /* Content.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Content.h; sourceTree = "<group>"; };
+		D7B860301D3B67AB00C005B5 /* Content.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Content.m; sourceTree = "<group>"; };
 		D7C4A1251D3686B00040A023 /* NSString+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XFExtension.h"; sourceTree = "<group>"; };
 		D7C4A1261D3686B00040A023 /* NSString+XFExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+XFExtension.m"; sourceTree = "<group>"; };
 		D7C4A1281D3686B00040A023 /* NSCalendar+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+XFExtension.h"; sourceTree = "<group>"; };
@@ -136,6 +141,15 @@
 			path = NSObject;
 			sourceTree = "<group>";
 		};
+		D7B8602E1D3B679A00C005B5 /* 常用知识 */ = {
+			isa = PBXGroup;
+			children = (
+				D7B8602F1D3B67AB00C005B5 /* Content.h */,
+				D7B860301D3B67AB00C005B5 /* Content.m */,
+			);
+			path = "常用知识";
+			sourceTree = "<group>";
+		};
 		D7C4A1241D3686B00040A023 /* 计算文件大小 */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,10 +238,11 @@
 				D7DAE7551D22722600893ED6 /* UITableView.m */,
 				D7DAE7621D2274F500893ED6 /* UITableViewCell.m */,
 				D75F599B1D3CDBA800C266FD /* UITableViewCell_Nib.m */,
+				D72EC1A51D40648C00993D59 /* UITableViewCell_register.m */,
 				D7F8A48D1D23707D001E3CE5 /* NSString.m */,
 				D7F8A4C51D239C00001E3CE5 /* UIWebView.m */,
 				D75F599C1D3CDDF100C266FD /* UIView.m */,
-				D72EC1A51D40648C00993D59 /* UITableViewCell_register.m */,
+				D76598F91D4502C800697774 /* UITabBar.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -315,6 +330,8 @@
 				D72EC1A71D4069C900993D59 /* 点击.m */,
 				D72EC1E71D406FEC00993D59 /* 排序.m */,
 				D72EC1E81D40781500993D59 /* dispatch.m */,
+				D76598FA1D45053B00697774 /* Snip.m */,
+				D72444E51D45F0DC00022255 /* Lib.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -322,6 +339,7 @@
 		D7F8A47D1D235BEB001E3CE5 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				D7B8602E1D3B679A00C005B5 /* 常用知识 */,
 				D7F8A4EC1D23C385001E3CE5 /* 折叠 */,
 				D7F8A4BD1D237FA1001E3CE5 /* 轮播 */,
 				D7F8A48F1D23745F001E3CE5 /* FeedBack */,
