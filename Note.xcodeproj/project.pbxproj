@@ -15,6 +15,8 @@
 		D72EC1A71D4069C900993D59 /* 点击.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "点击.m"; sourceTree = "<group>"; };
 		D72EC1E71D406FEC00993D59 /* 排序.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "排序.m"; sourceTree = "<group>"; };
 		D72EC1E81D40781500993D59 /* dispatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dispatch.m; sourceTree = "<group>"; };
+		D730B4291D489803008A3F46 /* UICollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionView.m; sourceTree = "<group>"; };
+		D743B6491D4741C500BFFE34 /* jiagou.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jiagou.m; sourceTree = "<group>"; };
 		D74DEBC91D42044700C93965 /* Prefix-head.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Prefix-head.m"; sourceTree = "<group>"; };
 		D75F599B1D3CDBA800C266FD /* UITableViewCell_Nib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewCell_Nib.m; sourceTree = "<group>"; };
 		D75F599C1D3CDDF100C266FD /* UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView.m; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 				D7F8A4C51D239C00001E3CE5 /* UIWebView.m */,
 				D75F599C1D3CDDF100C266FD /* UIView.m */,
 				D76598F91D4502C800697774 /* UITabBar.m */,
+				D730B4291D489803008A3F46 /* UICollectionView.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				D72EC1E81D40781500993D59 /* dispatch.m */,
 				D76598FA1D45053B00697774 /* Snip.m */,
 				D72444E51D45F0DC00022255 /* Lib.m */,
+				D743B6491D4741C500BFFE34 /* jiagou.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";

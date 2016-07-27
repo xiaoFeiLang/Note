@@ -98,4 +98,15 @@ didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 }
 //***************************************************   end   ************************************************************
 
+对cell进行配置
+在获取cell后，一般需要对cell的content进行配置，然后将配置后的cell展示出来。有以下3种方法能够对cell进行content配置，在这里大概提下，具体可以查看官网文档。
+
+cellForRowAtIndexPath。这是最常用的一种方法，也是遵循UITableViewDataSource协议时必须实现的方法。一般在这里对cell内部的各个组件进行数据配置。
+prepareForReuse。这个方法在dequeueReusableCellWithIdentifier返回cell前调用。一般在这里对cell的非content属性进行配置（如：editing、selection属性等）。
+willDisplayCell:forRowAtIndexPath。这个方法在cellForRowAtIndexPath之后调用，也是cell在显示在屏幕前的最后一步能够进行修改的地方。一般在这里对cell进行状态改变信息的配置（如：selection属性、背景颜色等）。
+
+文／MapleMeowMeow（简书作者）
+原文链接：http://www.jianshu.com/p/5c6b3a6b97cc
+著作权归作者所有，转载请联系作者获得授权，并标注“简书作者”。
+
 
