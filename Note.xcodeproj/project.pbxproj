@@ -18,6 +18,7 @@
 		D730B4291D489803008A3F46 /* UICollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionView.m; sourceTree = "<group>"; };
 		D743B6491D4741C500BFFE34 /* jiagou.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jiagou.m; sourceTree = "<group>"; };
 		D74DEBC91D42044700C93965 /* Prefix-head.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Prefix-head.m"; sourceTree = "<group>"; };
+		D75743C61D4B69C90057DFCB /* Model.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Model.m; sourceTree = "<group>"; };
 		D75F599B1D3CDBA800C266FD /* UITableViewCell_Nib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewCell_Nib.m; sourceTree = "<group>"; };
 		D75F599C1D3CDDF100C266FD /* UIView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIView.m; sourceTree = "<group>"; };
 		D75F599D1D3CE2A800C266FD /* 关联.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "关联.m"; sourceTree = "<group>"; };
@@ -336,6 +337,7 @@
 				D76598FA1D45053B00697774 /* Snip.m */,
 				D72444E51D45F0DC00022255 /* Lib.m */,
 				D743B6491D4741C500BFFE34 /* jiagou.m */,
+				D75743C61D4B69C90057DFCB /* Model.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
