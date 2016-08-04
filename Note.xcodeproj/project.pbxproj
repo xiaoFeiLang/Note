@@ -9,6 +9,7 @@
 /* Begin PBXFileReference section */
 		D7086D631D264B2A009AF46E /* 代理  Block.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "代理  Block.m"; sourceTree = "<group>"; };
 		D7086D641D2651BA009AF46E /* GCC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCC.m; sourceTree = "<group>"; };
+		D71CF6561D5091DE00E9033F /* xib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xib.m; sourceTree = "<group>"; };
 		D72444E51D45F0DC00022255 /* Lib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lib.m; sourceTree = "<group>"; };
 		D72EC1A51D40648C00993D59 /* UITableViewCell_register.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewCell_register.m; sourceTree = "<group>"; };
 		D72EC1A61D40657500993D59 /* 自动计算长度.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "自动计算长度.m"; sourceTree = "<group>"; };
@@ -27,6 +28,7 @@
 		D76598FA1D45053B00697774 /* Snip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snip.m; sourceTree = "<group>"; };
 		D7843B1E1D3F83F700FAF621 /* undoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = undoManager.m; sourceTree = "<group>"; };
 		D7843B261D3FDC8E00FAF621 /* NSArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArray.m; sourceTree = "<group>"; };
+		D79603111D51F7C400AD410B /* XSS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSS.m; sourceTree = "<group>"; };
 		D7B8602F1D3B67AB00C005B5 /* Content.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Content.h; sourceTree = "<group>"; };
 		D7B860301D3B67AB00C005B5 /* Content.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Content.m; sourceTree = "<group>"; };
 		D7C4A1251D3686B00040A023 /* NSString+XFExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+XFExtension.h"; sourceTree = "<group>"; };
@@ -144,6 +146,14 @@
 			path = NSObject;
 			sourceTree = "<group>";
 		};
+		D79603101D51F7B500AD410B /* PHP */ = {
+			isa = PBXGroup;
+			children = (
+				D79603111D51F7C400AD410B /* XSS.m */,
+			);
+			path = PHP;
+			sourceTree = "<group>";
+		};
 		D7B8602E1D3B679A00C005B5 /* 常用知识 */ = {
 			isa = PBXGroup;
 			children = (
@@ -214,8 +224,9 @@
 		D7DAE7371D226E7C00893ED6 = {
 			isa = PBXGroup;
 			children = (
-				D7843B241D3FDC6500FAF621 /* NSObject */,
 				D7F8A4891D23632D001E3CE5 /* WaitToHandle.m */,
+				D79603101D51F7B500AD410B /* PHP */,
+				D7843B241D3FDC6500FAF621 /* NSObject */,
 				D7FB6B9E1D28CB43005FD19F /* Project */,
 				D7DAE7661D22757B00893ED6 /* Category */,
 				D7DAE7531D2271FB00893ED6 /* Skills */,
@@ -247,6 +258,7 @@
 				D75F599C1D3CDDF100C266FD /* UIView.m */,
 				D76598F91D4502C800697774 /* UITabBar.m */,
 				D730B4291D489803008A3F46 /* UICollectionView.m */,
+				D71CF6561D5091DE00E9033F /* xib.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";

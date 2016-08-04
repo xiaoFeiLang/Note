@@ -46,3 +46,32 @@ sendSubviewToBack:
 参数
 view
 一个子视图用来移动到它後面去
+
+/**
+ *  计算一个view相对于屏幕(去除顶部statusbar的20像素)的坐标
+ *  iOS7下UIViewController.view是默认全屏的，要把这20像素考虑进去
+ */
++ (CGRect)relativeFrameForScreenWithView:(UIView *)v
+{
+    BOOL iOS7 = [[[UIDevice currentDevice] systemVersion] floatValue] >= 7;
+    
+    CGFloat screenHeight = [UIScreen mainScreen].bounds.size.height;
+    if (!iOS7) {
+        screenHeight -= 20;
+    }
+    UIView *view = v;
+    CGFloat x = .0;
+    CGFloat y = .0;
+    while (view.frame.size.width != 320 || view.frame.size.height != screenHeight) {
+        x += view.frame.origin.x;
+        y += view.frame.origin.y;
+        view = view.superview;
+        if ([view isKindOfClass:[UIScrollView class]]) {
+            x -= ((UIScrollView *) view).contentOffset.x;
+            y -= ((UIScrollView *) view).contentOffset.y;
+        }
+    }
+    return CGRectMake(x, y, v.frame.size.width, v.frame.size.height);
+}
+
+CGRect frame = [view convertRect:view.bounds toView:nil];  
