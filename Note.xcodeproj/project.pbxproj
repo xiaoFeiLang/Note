@@ -26,6 +26,7 @@
 		D75F599E1D3CE3DF00C266FD /* 比较.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "比较.m"; sourceTree = "<group>"; };
 		D76598F91D4502C800697774 /* UITabBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITabBar.m; sourceTree = "<group>"; };
 		D76598FA1D45053B00697774 /* Snip.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Snip.m; sourceTree = "<group>"; };
+		D7675BB41D58839800E8900E /* bk_blocks.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bk_blocks.m; sourceTree = "<group>"; };
 		D7843B1E1D3F83F700FAF621 /* undoManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = undoManager.m; sourceTree = "<group>"; };
 		D7843B261D3FDC8E00FAF621 /* NSArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArray.m; sourceTree = "<group>"; };
 		D79603111D51F7C400AD410B /* XSS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XSS.m; sourceTree = "<group>"; };
@@ -350,6 +351,7 @@
 				D72444E51D45F0DC00022255 /* Lib.m */,
 				D743B6491D4741C500BFFE34 /* jiagou.m */,
 				D75743C61D4B69C90057DFCB /* Model.m */,
+				D7675BB41D58839800E8900E /* bk_blocks.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
