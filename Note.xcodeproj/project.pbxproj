@@ -16,6 +16,7 @@
 		D72EC1A71D4069C900993D59 /* 点击.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "点击.m"; sourceTree = "<group>"; };
 		D72EC1E71D406FEC00993D59 /* 排序.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "排序.m"; sourceTree = "<group>"; };
 		D72EC1E81D40781500993D59 /* dispatch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dispatch.m; sourceTree = "<group>"; };
+		D73025DF1D5C1B4000942A5C /* shahe.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = shahe.m; sourceTree = "<group>"; };
 		D730B4291D489803008A3F46 /* UICollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UICollectionView.m; sourceTree = "<group>"; };
 		D743B6491D4741C500BFFE34 /* jiagou.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jiagou.m; sourceTree = "<group>"; };
 		D74DEBC91D42044700C93965 /* Prefix-head.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Prefix-head.m"; sourceTree = "<group>"; };
@@ -352,6 +353,7 @@
 				D743B6491D4741C500BFFE34 /* jiagou.m */,
 				D75743C61D4B69C90057DFCB /* Model.m */,
 				D7675BB41D58839800E8900E /* bk_blocks.m */,
+				D73025DF1D5C1B4000942A5C /* shahe.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";

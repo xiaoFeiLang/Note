@@ -6,6 +6,20 @@
 //
 //
 
++ (instancetype)commentCellWithTableView:(UITableView *)tableView{
+    
+    static NSString *ID = @"commentCell";
+    
+    WSCommentCell *cell = [tableView dequeueReusableCellWithIdentifier:ID];
+    
+    if (!cell) {
+        cell = [[NSBundle mainBundle] loadNibNamed:@"WSCommentCell" owner:nil options:nil].firstObject;
+    }
+    
+    return cell;
+}
+
+
 #import <Foundation/Foundation.h>
 - (void)viewDidLoad {
     [super viewDidLoad];
