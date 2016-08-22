@@ -81,7 +81,7 @@ CGRect frame = [view convertRect:view.bounds toView:nil];
 就可以  处理子视图中的一些数据。
 综上所诉，setNeedsDisplay方便绘图，而layoutSubViews方便出来数据。
 layoutSubviews在以下情况下会被调用：
-1、init初始化不会触发layoutSubviews。
+1、init初始化不会触发layoutSubviews。
 2、addSubview会触发layoutSubviews。
 3、设置view的Frame会触发layoutSubviews，当然前提是frame的值设置前后发生了变化。
 4、滚动一个UIScrollView会触发layoutSubviews。
