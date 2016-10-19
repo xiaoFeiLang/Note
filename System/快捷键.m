@@ -34,7 +34,7 @@ command+L              跳到某行
 
 调试快捷键：
 command+shift+Y     打开调试窗口
-command+Y                   调试运行程序
+command+Y           调试运行程序
 command+option+P      继续
 command+shift+O        跳过
 command+shift+I         进入

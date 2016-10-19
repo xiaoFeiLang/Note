@@ -5,6 +5,10 @@
 //  Created by loulou on 16/6/28.
 //
 //
+cd ~/.cocoapods
+du -sh *
+
+rm ~/Library/Caches/CocoaPods/search_index.json
 
 #import <Foundation/Foundation.h>
 #pod 'RongCloudIMKit'
